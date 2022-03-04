@@ -17,11 +17,6 @@ logger.add('logs/bot.log',
            retention=4,
            compression='zip')
 
-# TODO: написать файл README
-# TODO: добавить в гитигнор файлы:
-#     - env
-#     - папку всю с логами
-
 bot = None
 try:
     bot = telebot.TeleBot(token=BOT_TOKEN)
